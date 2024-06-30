@@ -219,3 +219,81 @@ main {
 .quotes-details p {
   font-family: "Source Sans Pro Italic";
 }
+
+.tutorials-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 0;
+}
+
+.tutorials-section h2 {
+  font-family: "Source Sans Pro Light";
+}
+
+.tutorials-section h2 strong {
+  font-family: "Source Sans Pro Bold";
+  color: #c271ff;
+}
+
+.popular-tutorials {
+  display: flex;
+  gap: 48px;
+}
+
+.popular-tutorials > div {
+  width: 254px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.popular-tutorials > div > h3 {
+  font-family: "Source Sans Pro Bold";
+}
+
+.popular-tutorials > div > p {
+  font-family: "Source Sans Pro Regular";
+}
+
+.popular-tutorials > div > img {
+  width: 254px;
+  height: 154px;
+}
+
+.tutor {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.ratings {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stars {
+  display: flex;
+}
+
+.ratings p {
+  font-family: "Source Sans Pro Semibold";
+  color: #c271ff;
+}
+
+.fa-solid,
+.fa-star {
+  color: #c271ff;
+}
+
+.popular-tutorials img {
+  width: 30px;
+  height: 30px;
+}
+
+.popular-tutorials h4 {
+  font-family: "Source Sans Pro Semibold";
+  color: #c271ff;
+}
