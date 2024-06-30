@@ -231,6 +231,7 @@ main {
 
 .tutorials-section h2 {
   font-family: "Source Sans Pro Light";
+  color: #071629;
 }
 
 .tutorials-section h2 strong {
@@ -252,10 +253,12 @@ main {
 
 .popular-tutorials > div > h3 {
   font-family: "Source Sans Pro Bold";
+  color: #071629;
 }
 
 .popular-tutorials > div > p {
   font-family: "Source Sans Pro Regular";
+  color: #07162960;
 }
 
 .popular-tutorials > div > img {
@@ -286,6 +289,10 @@ main {
 .fa-solid,
 .fa-star {
   color: #c271ff;
+}
+
+.stars .last {
+  color: #07162960;
 }
 
 .popular-tutorials img {
@@ -355,4 +362,48 @@ main {
   font-size: 14px;
   padding: 0 16px;
   font-family: "Source Sans Pro Semibold";
+}
+
+.faq-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  padding: 48px;
+}
+
+.faq-section div {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.faq-section h2 {
+  font-family: "Source Sans Pro Light";
+  font-size: 60px;
+}
+
+.faq-section h3 {
+  font-family: "Source Sans Pro Bold";
+  font-size: 16px;
+  color: #071629;
+}
+
+.faq-blocks {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.faq-block {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 48px;
+}
+
+.faq-block div {
+  font-family: "Source Sans Pro Regular";
+  font-size: 14px;
+  color: #07162960;
 }
