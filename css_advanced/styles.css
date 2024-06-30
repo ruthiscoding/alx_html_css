@@ -183,3 +183,39 @@ main {
   align-items: center;
   gap: 8px;
 }
+
+.quotes-section {
+  background-color: #c271ff;
+  color: white;
+  padding: 48px 0;
+}
+
+.quotes-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.quotes-image img {
+  width: 160px;
+  height: 160px;
+}
+
+.quotes-details {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.quotes-details blockquote {
+  font-family: "Source Sans Pro Regular";
+}
+
+.quotes-details h3 {
+  font-family: "Source Sans Pro Bold";
+}
+
+.quotes-details p {
+  font-family: "Source Sans Pro Italic";
+}
