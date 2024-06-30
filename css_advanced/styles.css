@@ -297,3 +297,62 @@ main {
   font-family: "Source Sans Pro Semibold";
   color: #c271ff;
 }
+
+.membership-section {
+  background-color: #071629;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 0;
+  gap: 48px;
+}
+
+.membership-section h2 {
+  font-size: 32px;
+  font-family: "Source Sans Pro Light";
+}
+
+.membership-section h2 strong {
+  font-family: "Source Sans Pro Bold";
+  color: #c271ff;
+}
+
+.memberships {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.memberships h3 {
+  font-size: 18px;
+  font-family: "Source Sans Pro Semibold";
+}
+
+.memberships p {
+  font-size: 14px;
+  text-align: center;
+  font-family: "Source Sans Pro Regular";
+}
+
+.memberships div {
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.membership-section button {
+  width: fit-content;
+  background-color: #c271ff;
+  height: 44px;
+  color: white;
+  border: none;
+  border-radius: 24px;
+  font-size: 14px;
+  padding: 0 16px;
+  font-family: "Source Sans Pro Semibold";
+}
