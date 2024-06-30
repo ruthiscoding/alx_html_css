@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  border: 1px solid lightgrey;
+  padding: 16px;
+}
+
+main {
+  border: 1px solid lightgrey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: auto;
+}
+
+footer {
+  border: 1px solid lightgrey;
+  padding: 16px;
+}
+
+article {
+  border-right: 1px solid lightgrey;
+  flex: 2;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+aside {
+  border-right: 1px solid lightgrey;
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+}
