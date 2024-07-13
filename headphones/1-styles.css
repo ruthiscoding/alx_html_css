@@ -3,106 +3,90 @@
   padding: 0;
   font-family: "Source Sans Pro", sans-serif;
 }
-body {
-  font-family: sans-serif;
-}
 
-header {
-  position: absolute;
-  top: 0;
+.what-we-do {
+  height: auto;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  padding-top: 16px;
 }
 
-header nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 80%;
-}
-
-header nav img {
-  width: 160px;
-  height: 32px;
-}
-
-header nav ul {
-  display: flex;
-  list-style: none;
-  gap: 24px;
-}
-
-header nav ul li a {
-  text-decoration: none;
-  color: white;
-}
-
-.hero-section {
-  background-image: url("./images/headphones_hero_1.jpg");
-  min-height: 95vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-}
-
-.hero-section div {
-  display: flex;
-  flex-direction: column;
-  width: 40%;
-  height: 100%;
-  margin: auto auto;
-  gap: 8px;
-  padding: 16px 0;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero-section button {
-  background-color: #ff6565;
-  color: white;
-  padding: 8px 16px;
-  font-size: 12px;
-  font-weight: 500;
-  border-radius: 24px;
-  border: none;
-  margin: 40px 0;
-}
-
-.hero-section p {
+.what-we-do-intro {
+  margin-top: 68px;
   text-align: center;
-  line-height: 1.5;
 }
 
-.what-we-do-section {
-  padding: 40px 0;
+.what-we-do-intro h1 {
+  color: #071629;
+  font-weight: 600;
+  font-size: 32px;
 }
 
-.what-we-do-section > div {
+.what-we-do-intro p {
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.icons-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 80px;
-  width: 80%;
-  margin: 0 auto;
-}
-
-.what-we-do-section img {
-  width: 40px;
-  height: 40px;
-}
-
-.what-we-do-section-services {
-  display: flex;
   width: 100%;
-  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.what-we-do-section-services div {
-  width: 20%;
-  gap: 40px;
+.part_2_icons {
+  margin-top: 97px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 1003px;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+
+.items {
+  width: 207px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.items img {
+  width: 94.2px;
+  height: 65.36px;
+}
+
+.items h3 {
+  margin-top: 24px;
+}
+
+.items p {
+  margin-top: 20px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .items {
+    flex: 1 1 45%;
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .items {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
 }

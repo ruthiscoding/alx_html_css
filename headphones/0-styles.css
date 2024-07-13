@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+header {
+  height: 800px;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url("images/headphones_hero_1.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+nav {
+  padding: 27.76px 150px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+nav img {
+  height: 100%;
+  width: 161px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+  color: #ff6565;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu li {
+  text-align: center;
+  padding: 14px 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.menu-icon {
+  cursor: pointer;
+  font-size: 30px;
+  color: white;
+  padding: 14px 20px;
+  display: none;
+}
+
+.menu-icon::before {
+  content: "\2715";
+  display: none;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+#menu-toggle:checked + .menu-icon {
+  color: transparent;
+}
+
+#menu-toggle:checked + .menu-icon::before {
+  display: block;
+  color: white;
+}
+
+#menu-toggle:checked + .menu-icon + .menu {
+  display: flex;
+  position: fixed;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  flex-direction: column;
+  z-index: 1000;
+}
+@media (max-width: 768px) {
+  nav {
+    padding: 27.76px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  nav img {
+    align-self: center;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #menu-toggle:checked + .menu-icon + .menu {
+    display: flex;
+  }
+
+  #menu-toggle:checked + .menu-icon + .menu li {
+    width: 100%;
+    text-align: center;
+    padding: 14px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav {
+    justify-content: space-between;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav img {
+    align-self: flex-start;
+  }
+}
+
+.main_part {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.text {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+
+.text h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.text p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.cta-btn {
+  margin-top: 40px;
+  height: 44px;
+  width: 162px;
+  color: #fff;
+  background-color: #ff6565;
+  border: none;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.cta-btn:hover {
+  opacity: 0.9;
+}
+
+.text .main-paragraph2 {
+  margin-top: 65px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 100;
+}
